@@ -27,7 +27,7 @@ namespace BankAccounts
       Console.ReadKey();
       Console.Clear();
 
-      // Bank operations by customertomer
+      // asked Bank operations by customer
       Console.Write("Please enter your ask: (C (Creat Account) , D (Deposit) , W (Withdraw) , B (Get balance) ):");
       var answer = Console.ReadLine().ToUpper();
 
